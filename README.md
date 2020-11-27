@@ -29,8 +29,3 @@ We will replicate the tables from the research paper in order to contrast the re
 * Until 11.12: Finish with directed signed network analysis (status theory)
 * Until 15.12: Interpret results and compare with research paper
 * 18.12: P4 due date
-
-### 7. Questions for the TAs 
-
-* We would like to ask the TAs if our extension proposal may be too extensive and time consuming. Are 3 datasets too much?
-* 
