@@ -15,9 +15,8 @@ The research paper aims towards understanding to what extent network theories fr
 * How do our conclusions change with respect to time (temporal data)?
 
 ### 4. Proposed datasets
-*  “Social Network: Reddit Hyperlink Network” - 
+*  “Social Network: Reddit Hyperlink Network” - This data set contains information about links in Reddit, with a network whose edges are connections between subreddits. The network is temporal and directed, with a sign (-1 or 1) for each edge, representing the sentiment of one community toward the target comminity about posts that create hyperlinks between communities. The sign is the result of a training based classifier on the post, and gives value 1 if the post is considered neutral.
 *  “Bitcoin OTC trust weighted signed network” - This data set originates from a "who-trusts-whom" network, where users' reputation is recorded. This is crucial due to the anynonmous nature of bitcoin transactions. On the website Bitcoin OTC users rank each other on a scale from -10 (most distrust) to +10 (most trust) in increments of 1. This signed network data is directed as well as temporal, meaning that a timestamp is provided at each incident of rating.
-
 *  “Wikipedia Requests for Adminship (with text)” -
 
 ### 5. Methods
