@@ -2,8 +2,7 @@
 
 
 ### 1. Title
-* Generalizing signed network theory: extending research to more datasets
-* Generalizing signed network theory: considering different data set features
+* Generalizing signed network theory: extending research to more datasets and features
 
 ### 2. Abstract
 The research paper aims towards understanding to what extent network theories from social psychology, namely balance and status theory, can be observed in signed network data using 3 different data sets. With our project proposal we want to extend the analysis to more datasets and verify if we can find similar results pertaining to the latter theories on these new data sets. We are interested in understanding if and to what extent the theories studied in the research paper can be transferred in a more general sense to data with new characteristics. Furthermore, we are interested in seeing how new features such as timestamps and non-binary sign weights affect the interpretation of analyses and conclusions. For our proposal we want to perform the same computational steps as in the paper to then contrast both results, interpret observed differences, and test the limits of social psychology theory for signed network applications. 
