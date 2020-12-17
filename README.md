@@ -27,9 +27,9 @@ We will replicate the tables from the research paper in order to contrast the re
 
 ### 6. Contributions of Group Members
 
-Paul: Developed "Average Edge" classification method
-Alexandre: Developed "Balance Theory" classification method
-Arman: Writing up the report and preparing the final presentation.
+* Paul: Developed "Average Edge" classification method
+* Alexandre: Developed "Balance Theory" classification method
+* Arman: Writing up the report and preparing the final presentation.
 
 
 
