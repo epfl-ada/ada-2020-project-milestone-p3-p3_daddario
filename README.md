@@ -1,4 +1,45 @@
-## Milestone P3: Creative Extension Proposal 
+Note: We pivoted in our creative estension idea. Below you will find our updated proposal as well as the old proposal. 
+
+## Milestone P3: Creative Extension Proposal (Updated Proposal)
+
+### 1. Title
+* Local and Global prediction of edges and triads in Social Signed Networks???
+* Edge prediction in Social Signed Networks????
+
+
+### 2. Abstract
+The research paper aims towards understanding to what extent network theories from social psychology, namely balance and status theory, can be observed in signed network data using 3 different data sets and further how edge predictions can be made with them. With our proposal we want to create a binary weight prediction algorithm based on the triadic structures using balance theory and contrast this approach with another classification method that we name "Average Edge", which is not based on the triadic of the network. We want to try and understand how these two techniques differ from each other in terms of successfull predictions, parameter optimization, and how the resulting predicted edge weights affect the overall triadic structure of new network. Since we want to try to answer additional research questions we will be using the datasets from the original research paper. 
+
+### 3. Research questions
+
+* How do we develop the afore-mentioned prediction techniques.
+* To what extent can they be optimized by parameter tuning.
+* How do they contrast in terms of performance: accuracy, precision, recall, etc.
+* Are we able to draw comparisons between our results and the results found in the research paper?
+
+### 4. Proposed datasets
+*  “Epinions”
+*  “Slashdot”
+*  “Wikipedia”
+
+### 5. Methods
+We will replicate the tables from the research paper in order to contrast the results from the different data sets. In addition, we have to try different pre-processing approaches depending on the raw format of the data sets. For example the data set “Bitcoin OTC trust weighted signed network” uses weighted signs, with values ranging from -10 to +10 and therefore we will have to try out different interpretations of "postitive" and "negative sentiment". In addition, since we also have temporal data we will want to analyse how our results change with respect to time and therefore we will make use of time series methods. Concerning, the sentiment analysis we will use natural language processing tools such as "Word2Vec" to determine the degree of postive and negative sentiment of each vote, thereby allowing us to investigate how non-discrete weighted signs affect our results.
+
+### 6. Contributions of Group Members
+
+* Paul: Developed "Average Edge" classification method
+* Alexandre: Developed "Balance Theory" classification method
+* Arman: Writing up the report and preparing the final presentation
+
+
+
+
+
+
+
+
+
+## Milestone P3: Creative Extension Proposal (Old Version)
 
 
 ### 1. Title
