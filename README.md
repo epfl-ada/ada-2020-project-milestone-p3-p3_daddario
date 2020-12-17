@@ -29,7 +29,7 @@ We will replicate the tables from the research paper in order to contrast the re
 
 * Paul: Developed "Average Edge" classification method
 * Alexandre: Developed "Balance Theory" classification method
-* Arman: Writing up the report and preparing the final presentation.
+* Arman: Writing up the report and preparing the final presentation
 
 
 
