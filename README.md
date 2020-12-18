@@ -3,8 +3,8 @@ Note: We pivoted in our creative estension idea. Below you will find our updated
 ## Milestone P3: Creative Extension Proposal (Updated Proposal)
 
 ### 1. Title
-* **Local and Global prediction of edges in Social Signed Networks**
-* Edge prediction in Social Signed Networks
+* **Edge prediction in Social Signed Networks**
+* Local and Global prediction of edges in Social Signed Networks
 * Triadic and non-triadic prediction of edges Social Signed Networks
 
 
