@@ -5,6 +5,7 @@ Note: We pivoted in our creative estension idea. Below you will find our updated
 ### 1. Title
 * Local and Global prediction of edges and triads in Social Signed Networks???
 * Edge prediction in Social Signed Networks????
+* Triadic and non-triadic prediction of edges Social Signed Networks???
 
 
 ### 2. Abstract
@@ -14,8 +15,7 @@ The research paper aims towards understanding to what extent network theories fr
 
 * How do we develop the afore-mentioned prediction techniques.
 * To what extent can they be optimized by parameter tuning.
-* How do they contrast in terms of performance: accuracy, precision, recall, etc.
-* Are we able to draw comparisons between our results and the results found in the research paper?
+* How do they perform? (accuracy, precision, recall, etc.)
 
 ### 4. Proposed datasets
 *  “Epinions”
@@ -23,19 +23,14 @@ The research paper aims towards understanding to what extent network theories fr
 *  “Wikipedia”
 
 ### 5. Methods
-We will replicate the tables from the research paper in order to contrast the results from the different data sets. In addition, we have to try different pre-processing approaches depending on the raw format of the data sets. For example the data set “Bitcoin OTC trust weighted signed network” uses weighted signs, with values ranging from -10 to +10 and therefore we will have to try out different interpretations of "postitive" and "negative sentiment". In addition, since we also have temporal data we will want to analyse how our results change with respect to time and therefore we will make use of time series methods. Concerning, the sentiment analysis we will use natural language processing tools such as "Word2Vec" to determine the degree of postive and negative sentiment of each vote, thereby allowing us to investigate how non-discrete weighted signs affect our results.
+We develop two prediction algorithms: one based on the ideas of "balance theory" and the other on a self-derived technique of taking the means of adjacent edge-weights between two nodes into a account. The first method will assign a missing edge weight in a triad based on the prior knowledge of the other two weights in this triad. This weight is assigned with a conditional probability based on the fractions of the types of triads found in the network. Additionally, tuning parameters are introduced to favor certain triad types, who display "structural balance" over the one that does not. On the other hand, the "Average Edge" method is based on comparing the mean of the outgoing edge weights of the "Source" with the mean of the incoming edges weights of the "Target" and assigns +1 or -1 depending if both means are positive or negative. Otherwise, we compare the aboslute value of both means decide the sign of the missing edge. We also have a tuning parameter "alpha" for this algorithm aswell.
+
 
 ### 6. Contributions of Group Members
 
 * Paul: Developed "Average Edge" classification method
 * Alexandre: Developed "Balance Theory" classification method
 * Arman: Writing up the report and preparing the final presentation
-
-
-
-
-
-
 
 
 
